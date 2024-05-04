@@ -8,44 +8,44 @@ require('lazy').setup({
   -- modular approach: using `require 'path/name'` will
   -- include a plugin definition from file lua/path/name.lua
 
-  require 'kickstart/plugins/gitsigns',
+  require 'dhinogz/plugins/gitsigns',
 
-  require 'kickstart/plugins/which-key',
+  require 'dhinogz/plugins/which-key',
 
-  require 'kickstart/plugins/telescope',
+  require 'dhinogz/plugins/telescope',
 
-  require 'kickstart/plugins/lspconfig',
+  require 'dhinogz/plugins/lspconfig',
 
-  require 'kickstart/plugins/conform',
+  require 'dhinogz/plugins/conform',
 
-  require 'kickstart/plugins/cmp',
+  require 'dhinogz/plugins/cmp',
 
-  require 'kickstart/plugins/tokyonight',
-  require 'kickstart/plugins/dracula',
+  require 'dhinogz/plugins/tokyonight',
+  require 'dhinogz/plugins/dracula',
 
-  require 'kickstart/plugins/todo-comments',
+  require 'dhinogz/plugins/todo-comments',
 
-  require 'kickstart/plugins/mini',
+  require 'dhinogz/plugins/mini',
 
-  require 'kickstart/plugins/treesitter',
+  require 'dhinogz/plugins/treesitter',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
   -- place them in the correct locations.
 
-  -- NOTE: Next step on your Neovim journey: Add/Configure additional plugins for Kickstart
+  -- NOTE: Next step on your Neovim journey: Add/Configure additional plugins for kickstart
   --
-  --  Here are some example plugins that I've included in the Kickstart repository.
+  --  Here are some example plugins that I've included in the dhinogz repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
-  require 'kickstart.plugins.debug',
-  -- require 'kickstart.plugins.indent_line',
-  require 'kickstart.plugins.lint',
-  require 'kickstart.plugins.autopairs',
-  require 'kickstart.plugins.neo-tree',
-  require 'kickstart.plugins.scroll-eof',
-  require 'kickstart.plugins.wakatime',
-  require 'kickstart.plugins.fugitive',
+  require 'dhinogz.plugins.debug',
+  -- require 'dhinogz.plugins.indent_line',
+  require 'dhinogz.plugins.lint',
+  require 'dhinogz.plugins.autopairs',
+  require 'dhinogz.plugins.neo-tree',
+  require 'dhinogz.plugins.scroll-eof',
+  require 'dhinogz.plugins.wakatime',
+  require 'dhinogz.plugins.fugitive',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
